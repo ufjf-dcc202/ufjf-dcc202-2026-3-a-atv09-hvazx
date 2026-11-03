@@ -1,15 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
 main > article {
     border: 1px solid red;
     resize: both;
     overflow: scroll;
-}
-
-main > article {
-    display: grid;
-    place-items: center;
-}
-
-h1 {
-    background-color: black;
-    color: white;
+    width: 215px;
+    height: 215px;
 }
